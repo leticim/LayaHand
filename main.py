@@ -5,7 +5,7 @@ from config import router
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, APP_ROOT)
 #import router
-app = router.rouuter()
+app = router.app()
 
 if __name__ == '__main__':
     print("hey")
